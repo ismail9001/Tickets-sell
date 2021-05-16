@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		FA33887026518A860014A625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33886F26518A860014A625 /* AppDelegate.m */; };
 		FA33887326518A860014A625 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33887226518A860014A625 /* SceneDelegate.m */; };
-		FA33887626518A860014A625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33887526518A860014A625 /* ViewController.m */; };
-		FA33887926518A860014A625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33887726518A860014A625 /* Main.storyboard */; };
+		FA33887626518A860014A625 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33887526518A860014A625 /* MainViewController.m */; };
 		FA33887B26518A8D0014A625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA33887A26518A8D0014A625 /* Assets.xcassets */; };
 		FA33887E26518A8D0014A625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33887C26518A8D0014A625 /* LaunchScreen.storyboard */; };
 		FA33888126518A8D0014A625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33888026518A8D0014A625 /* main.m */; };
+		FA33888C26518B5C0014A625 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33888B26518B5C0014A625 /* Country.m */; };
+		FA33889326518BCA0014A625 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33889226518BCA0014A625 /* City.m */; };
+		FA33889726518C580014A625 /* Airport.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33889626518C580014A625 /* Airport.m */; };
+		FA33889C26518CF20014A625 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33889B26518CF20014A625 /* DataManager.m */; };
+		FA7A150A2651914F00143F3D /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7A15072651914F00143F3D /* countries.json */; };
+		FA7A150B2651914F00143F3D /* airports.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7A15082651914F00143F3D /* airports.json */; };
+		FA7A150C2651914F00143F3D /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7A15092651914F00143F3D /* cities.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +28,23 @@
 		FA33886F26518A860014A625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FA33887126518A860014A625 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		FA33887226518A860014A625 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FA33887426518A860014A625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA33887526518A860014A625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FA33887826518A860014A625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA33887426518A860014A625 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FA33887526518A860014A625 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FA33887A26518A8D0014A625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA33887D26518A8D0014A625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA33887F26518A8D0014A625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA33888026518A8D0014A625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA33888A26518B5C0014A625 /* Country.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		FA33888B26518B5C0014A625 /* Country.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		FA33889126518BCA0014A625 /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		FA33889226518BCA0014A625 /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		FA33889526518C580014A625 /* Airport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Airport.h; sourceTree = "<group>"; };
+		FA33889626518C580014A625 /* Airport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airport.m; sourceTree = "<group>"; };
+		FA33889A26518CF20014A625 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		FA33889B26518CF20014A625 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		FA7A15072651914F00143F3D /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		FA7A15082651914F00143F3D /* airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
+		FA7A15092651914F00143F3D /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +77,53 @@
 		FA33886D26518A860014A625 /* Tickets sell */ = {
 			isa = PBXGroup;
 			children = (
+				FA7A15052651911C00143F3D /* JSON */,
+				FA33889926518CDF0014A625 /* Data */,
+				FA33888926518B460014A625 /* Model */,
 				FA33886E26518A860014A625 /* AppDelegate.h */,
 				FA33886F26518A860014A625 /* AppDelegate.m */,
 				FA33887126518A860014A625 /* SceneDelegate.h */,
 				FA33887226518A860014A625 /* SceneDelegate.m */,
-				FA33887426518A860014A625 /* ViewController.h */,
-				FA33887526518A860014A625 /* ViewController.m */,
-				FA33887726518A860014A625 /* Main.storyboard */,
+				FA33887426518A860014A625 /* MainViewController.h */,
+				FA33887526518A860014A625 /* MainViewController.m */,
 				FA33887A26518A8D0014A625 /* Assets.xcassets */,
 				FA33887C26518A8D0014A625 /* LaunchScreen.storyboard */,
 				FA33887F26518A8D0014A625 /* Info.plist */,
 				FA33888026518A8D0014A625 /* main.m */,
 			);
 			path = "Tickets sell";
+			sourceTree = "<group>";
+		};
+		FA33888926518B460014A625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA33888A26518B5C0014A625 /* Country.h */,
+				FA33888B26518B5C0014A625 /* Country.m */,
+				FA33889126518BCA0014A625 /* City.h */,
+				FA33889226518BCA0014A625 /* City.m */,
+				FA33889526518C580014A625 /* Airport.h */,
+				FA33889626518C580014A625 /* Airport.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA33889926518CDF0014A625 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA33889A26518CF20014A625 /* DataManager.h */,
+				FA33889B26518CF20014A625 /* DataManager.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA7A15052651911C00143F3D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A15082651914F00143F3D /* airports.json */,
+				FA7A15092651914F00143F3D /* cities.json */,
+				FA7A15072651914F00143F3D /* countries.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +182,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7A150A2651914F00143F3D /* countries.json in Resources */,
+				FA7A150C2651914F00143F3D /* cities.json in Resources */,
+				FA7A150B2651914F00143F3D /* airports.json in Resources */,
 				FA33887E26518A8D0014A625 /* LaunchScreen.storyboard in Resources */,
 				FA33887B26518A8D0014A625 /* Assets.xcassets in Resources */,
-				FA33887926518A860014A625 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +197,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA33887626518A860014A625 /* ViewController.m in Sources */,
+				FA33887626518A860014A625 /* MainViewController.m in Sources */,
 				FA33887026518A860014A625 /* AppDelegate.m in Sources */,
+				FA33889726518C580014A625 /* Airport.m in Sources */,
+				FA33889326518BCA0014A625 /* City.m in Sources */,
 				FA33888126518A8D0014A625 /* main.m in Sources */,
+				FA33889C26518CF20014A625 /* DataManager.m in Sources */,
 				FA33887326518A860014A625 /* SceneDelegate.m in Sources */,
+				FA33888C26518B5C0014A625 /* Country.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA33887726518A860014A625 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA33887826518A860014A625 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA33887C26518A8D0014A625 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
