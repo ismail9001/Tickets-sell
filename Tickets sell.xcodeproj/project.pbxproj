@@ -20,6 +20,7 @@
 		FA7A150A2651914F00143F3D /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7A15072651914F00143F3D /* countries.json */; };
 		FA7A150B2651914F00143F3D /* airports.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7A15082651914F00143F3D /* airports.json */; };
 		FA7A150C2651914F00143F3D /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = FA7A15092651914F00143F3D /* cities.json */; };
+		FAFB8F9B26568B4E00B54927 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB8F9A26568B4E00B54927 /* PlaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		FA7A15072651914F00143F3D /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		FA7A15082651914F00143F3D /* airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
 		FA7A15092651914F00143F3D /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		FAFB8F9926568B4E00B54927 /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		FAFB8F9A26568B4E00B54927 /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		FA33886D26518A860014A625 /* Tickets sell */ = {
 			isa = PBXGroup;
 			children = (
+				FAFB8F9826568B1E00B54927 /* View */,
 				FA7A15052651911C00143F3D /* JSON */,
 				FA33889926518CDF0014A625 /* Data */,
 				FA33888926518B460014A625 /* Model */,
@@ -84,8 +88,6 @@
 				FA33886F26518A860014A625 /* AppDelegate.m */,
 				FA33887126518A860014A625 /* SceneDelegate.h */,
 				FA33887226518A860014A625 /* SceneDelegate.m */,
-				FA33887426518A860014A625 /* MainViewController.h */,
-				FA33887526518A860014A625 /* MainViewController.m */,
 				FA33887A26518A8D0014A625 /* Assets.xcassets */,
 				FA33887C26518A8D0014A625 /* LaunchScreen.storyboard */,
 				FA33887F26518A8D0014A625 /* Info.plist */,
@@ -124,6 +126,17 @@
 				FA7A15072651914F00143F3D /* countries.json */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		FAFB8F9826568B1E00B54927 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA33887426518A860014A625 /* MainViewController.h */,
+				FA33887526518A860014A625 /* MainViewController.m */,
+				FAFB8F9926568B4E00B54927 /* PlaceViewController.h */,
+				FAFB8F9A26568B4E00B54927 /* PlaceViewController.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFB8F9B26568B4E00B54927 /* PlaceViewController.m in Sources */,
 				FA33887626518A860014A625 /* MainViewController.m in Sources */,
 				FA33887026518A860014A625 /* AppDelegate.m in Sources */,
 				FA33889726518C580014A625 /* Airport.m in Sources */,
